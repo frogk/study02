@@ -1,0 +1,38 @@
+.blind{
+  display: none;
+}
+
+.header-box{
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  background-color: #00c73c;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#nav{
+  width: 500px;
+  margin-right: 15px;
+}
+
+#nav li{
+  margin-left: 15px;
+}
+
+#nav ul{
+  display: flex;
+  margin-right: 15px;
+  justify-content: flex-end;
+}
+
+#nav ul li a{
+  text-decoration: none;
+  color: #ccc;
+}
+#nav ul li a.active{
+  color: #fff;
+}
